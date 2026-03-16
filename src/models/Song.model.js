@@ -4,7 +4,6 @@ const songSchema = new Schema(
   {
     trackId: {
       type: String,
-      unique: true,
       required: true,
     },
 
