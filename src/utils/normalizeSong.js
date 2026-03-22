@@ -8,5 +8,6 @@ export function normalizeSong(rawSong) {
     genre: rawSong.genre,
     mp3: rawSong.mp3,
     cover: rawSong.cover,
+    isPopular: rawSong.isPopular,
   };
 }

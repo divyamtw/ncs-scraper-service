@@ -18,6 +18,11 @@ const songSchema = new Schema(
       type: String,
       default: "NCS",
     },
+    
+    isPopular: {
+      type: Boolean,
+      default: false,
+    },
   },
   { timestamps: true },
 );
