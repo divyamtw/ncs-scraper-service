@@ -53,7 +53,7 @@ export async function scrapePage(page) {
 
       isPopular: popularTitles.some((p) => title?.includes(p)),
     };
-    
+
     songs.push(normalizeSong(rawSong));
   });
 
